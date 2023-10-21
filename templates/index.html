@@ -6,12 +6,12 @@
 </head>
 <body>
 <h1>This page is now working</h1>
-    <form>
+    <form action="/login" method="post">
         <label>Name</label>
-            <input type="text" placeholder="username">
+        <input type="text" id="user" name="user" placeholder="username">
         <label>Password</label>
-            <input type="text" placeholder="password">
-        <button type="submit">Ok</button>
+        <input type="text" id="pw" name="pw" placeholder="password">
+        <button type="submit" value="Ok">Ok</button>
     </form>
 </body>
 </html>
